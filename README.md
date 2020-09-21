@@ -9,7 +9,7 @@ That's this file, where you can tell people details about your web project.
 
 ### ← index.html
 
-Where you'll write the content of your website. You'll need to create this by using the "New File" menu.
+Where you'll write the content of your website.
 
 ### ← assets
 
