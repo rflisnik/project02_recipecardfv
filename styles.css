@@ -1,0 +1,36 @@
+:root {
+  --color-yellow: #F6F930;
+  --color-mint: #A2F1C1;
+  --color-slate: #22333B;
+}
+
+body {
+  background-color: #FCFCFC;
+  color: var(--color-slate);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+code {
+  font-size: 110%;
+}
+
+section {
+  margin-bottom: 32px;
+}
+
+div,
+span {
+  background-color: var(--color-mint);
+  border: 3px solid var(--color-slate);
+  margin: 32px 8px;
+  text-align: center;
+}
+
+.demo div {
+  display: inline;
+}
+
+.demo span {
+  display: block;
+}

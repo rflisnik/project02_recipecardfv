@@ -1,26 +1,5 @@
-Your Project
-============
+# Learn CSS: Display
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+Demo included in the MICA web materials on the [display property](https://mica-web.github.io/learn/css/display) in CSS.
 
-### ← README.md
-
-That's this file, where you can tell people details about your web project.
-
-### ← index.html
-
-Where you'll write the content of your website.
-
-### ← assets
-
-Drag in files, like images, into `assets` to add them to your project.
-
-
-About Glitch
-============
-
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
-
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-Find out more [about Glitch](https://glitch.com/about).
+Part of my [Learn: CSS](https://glitch.com/@aweger/learn-css) collection.
