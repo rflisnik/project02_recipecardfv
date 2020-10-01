@@ -1,14 +1,55 @@
+/* ==============
+   PALETTE
+   ============== */
 :root {
   --color-yellow: #F6F930;
   --color-mint: #A2F1C1;
   --color-slate: #22333B;
 }
 
+
+/* ==============
+   UTILITY STYLES
+   ============== */
+
+/* Corrects the layout around floated elements */
+.u-clearfix::before,
+.u-clearfix::after {
+  content: " ";
+  display: table;
+}
+.u-clearfix::after {
+  clear: both;
+}
+
+/* Removes the default bullets and spacing from a list */
+.u-list-reset {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+/* Displays list items as inline block  */
+.u-list-inline li {
+  display: inline-block;
+}
+
+
+/* ==============
+   BASE STYLES
+   ============== */
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #FCFCFC;
   color: var(--color-slate);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; /* system font stack */
+  line-height: 1.3;
+  margin: 0;
 }
 
 code {
@@ -29,3 +70,8 @@ span {
   text-align: center;
   width: 120px;
 }
+
+
+/* ======================
+   DEMO STYLES
+   ====================== */
