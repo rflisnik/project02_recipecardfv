@@ -103,3 +103,11 @@ body {
   color: rgb(140, 126, 109);
   transform: rotateY(180deg);
 }
+
+.content-alt {
+  display: none;
+}
+
+#ingredients:target, #comments:target {
+  display: block;
+}
