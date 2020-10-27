@@ -57,9 +57,10 @@ body {
 
 .flip-card {
   background-color: transparent;
-  width: 500px;
-  height: 500px;
+  width: 480px;
+  height: 270px;
   perspective: 1000px;
+  position: relative;
 }
 
 .flip-card-inner {
@@ -69,6 +70,13 @@ body {
   text-align: center;
   transition: transform 1s;
   transform-style: preserve-3d;
+}
+
+.flip-card-trigger {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1;
 }
 
 .flip-card-trigger:hover + .flip-card-inner {
@@ -82,20 +90,15 @@ body {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  /*     background-color: rgb(140, 126, 109); */
 }
 
 .flip-card-front {
-  /*     width: 480px;
-    height: 270px;  */
   padding: 45px;
   background-color: rgb(140, 126, 109);
   color: rgb(29, 38, 98);
 }
 
 .flip-card-back {
-  /*     width: 480px;
-    height: 270px; */
   background-color: rgb(255, 252, 222);
   color: rgb(140, 126, 109);
   transform: rotateY(180deg);
