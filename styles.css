@@ -104,10 +104,10 @@ body {
   transform: rotateY(180deg);
 }
 
-.content-alt {
+.content-default, .content-alt {
   display: none;
 }
 
-#ingredients:target, #comments:target {
+#description:target, #ingredients:target, #comments:target {
   display: block;
 }
