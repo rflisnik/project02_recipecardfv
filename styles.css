@@ -7,7 +7,6 @@
   --color-slate: #22333B;
 }
 
-
 /* ==============
    UTILITY STYLES
    ============== */
@@ -35,7 +34,6 @@
   display: inline-block;
 }
 
-
 /* ==============
    BASE STYLES
    ============== */
@@ -47,31 +45,58 @@
 body {
   background-color: #FCFCFC;
   color: var(--color-slate);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; /* system font stack */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; /* system font stack */
   line-height: 1.3;
   margin: 0;
 }
 
-code {
-  font-size: 110%;
-}
-
-section {
-  margin-bottom: 32px;
-}
-
-div,
-span {
-  background-color: var(--color-mint);
-  border: 3px solid var(--color-slate);
-  display: inline-block;
-  height: 120px;
-  margin: 32px 8px;
-  text-align: center;
-  width: 120px;
-}
-
-
 /* ======================
    DEMO STYLES
    ====================== */
+
+.flip-card {
+  background-color: transparent;
+  width: 500px;
+  height: 500px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-trigger:hover + .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  /*     background-color: rgb(140, 126, 109); */
+}
+
+.flip-card-front {
+  /*     width: 480px;
+    height: 270px;  */
+  padding: 45px;
+  background-color: rgb(140, 126, 109);
+  color: rgb(29, 38, 98);
+}
+
+.flip-card-back {
+  /*     width: 480px;
+    height: 270px; */
+  background-color: rgb(255, 252, 222);
+  color: rgb(140, 126, 109);
+  transform: rotateY(180deg);
+}
