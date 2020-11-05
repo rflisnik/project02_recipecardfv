@@ -87,7 +87,24 @@ font-size: 9px;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;}
+  overflow: hidden;} 
+
+.cooktime { 
+  position: absolute; 
+  top: 230px;
+  left: 20px;}
+
+.hourglass {
+  width: 35px;
+} 
+
+.ladle { 
+  width: 45px;} 
+
+.pie {
+  width: 30px;
+}
+
 
 
 .ingredientslist {
