@@ -51,26 +51,28 @@ body {
 } 
 
 h2 { 
-color: rgb()
-position: relative; 
-top: -217px; 
-right: -152px;
+color: rgb(29,38,98); 
+position: absolute; 
+top: 30px; 
+right: 17px;
 font-size: 20px; 
 font-family: 'Arvo', serif;} 
 
 span { 
-color: rgb(255,50,0); 
-font-family: 'Dancing Script', cursive;
-position: relative; 
-top: -22px;
-right: -61px;}
+  color: rgb(255,50,0); 
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  position: absolute; 
+  top: -22px; 
+  right: 
+}
 
 
 .spicerack { 
   width: 60px;
-  position: relative; 
-  top: -285px; 
-  right: -100px; }
+  position: absolute; 
+  top: 20px; 
+  right: 107px; }
 
 
 .description { 
