@@ -158,6 +158,7 @@ font-size: 8px;}
 
 .flip-card-trigger:hover + .flip-card-inner {
   transform: rotateY(180deg);
+  backface-visibility: hidden;
 } 
 
 .flip-card-front,
@@ -165,7 +166,7 @@ font-size: 8px;}
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden;
+  webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   font-size: 9px;
 }
@@ -175,7 +176,6 @@ font-size: 8px;}
   background-color: rgb(140, 126, 109);
   color: rgb(29, 38, 98);
   border-radius: 10px;
-  backface-visibility: hidden;
 }
 
 .flip-card-back {
