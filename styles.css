@@ -44,7 +44,11 @@ body {
   margin: 0;
 }
 
-.donut-img {}
+.donut-img {
+  position: relative; 
+  top: -30px; 
+  left: -25px; 
+}
 
 .description { 
 font-size: 9px; 
