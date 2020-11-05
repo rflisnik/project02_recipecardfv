@@ -52,13 +52,20 @@ body {
 
 h2 { 
 position: relative; 
-top: -1475px; 
+top: -220px; 
 right: -152px;
 font-size: 20px;} 
 
+span { 
+position: relative; 
+top: -22px;
+right: -61px;}
+
 
 .spicerack { 
-  size: 1%;}
+  width: 75px;
+  position: relative; 
+  top: -285px; }
 
 
 .description { 
