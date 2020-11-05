@@ -190,5 +190,6 @@ font-size: 8px;}
 
 .recipe {
   width: 450px; 
-  position: center; 
+  position: relative;
+  top: 5px; 
 }
