@@ -1,11 +1,4 @@
-/* ==============
-   PALETTE
-   ============== */
-:root {
-  --color-yellow: #F6F930;
-  --color-mint: #A2F1C1;
-  --color-slate: #22333B;
-}
+
 
 /* ==============
    UTILITY STYLES
@@ -77,7 +70,7 @@ body {
   right: 20px;
   bottom: 20px;
   z-index: 1;
-}
+} 
 
 .flip-card-trigger:hover + .flip-card-inner {
   transform: rotateY(180deg);
