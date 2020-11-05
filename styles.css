@@ -74,13 +74,20 @@ font-size: 9px;
 }
 
 .content-default { 
-  width: 140px;
+  width: 148px;
   text-align: left;
   position: absolute; 
-  top:}
+  top: 72px;
+  left: 315px;}
 
 .trigger { 
-  width: 30px;}
+  width: 30px;} 
+
+.menu { 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;}
 
 
 .ingredientslist {
@@ -108,7 +115,7 @@ font-size: 9px;
 .flip-card-trigger {
   position: absolute;
   right: 15px;
-  bottom: 10px;
+  bottom: 5px;
   z-index: 1; 
   width: 
 } 
