@@ -50,11 +50,14 @@ body {
   left: -75px; 
 } 
 
+a{ 
+color: rgb(29,38,98);}
+
 h2 { 
 color: rgb(29,38,98); 
 position: absolute; 
-top: 30px; 
-right: 17px;
+top: 25px; 
+right: 15px;
 font-size: 20px; 
 font-family: 'Arvo', serif;} 
 
@@ -64,7 +67,6 @@ span {
   font-size: 25px;
   position: absolute; 
   top: -22px; 
-  right: 
 }
 
 
@@ -75,11 +77,16 @@ span {
   right: 107px; }
 
 
-.description { 
-font-size: 8px; 
-}
-
 .content-default { 
+  color: rgb(255,252,222); 
+  width: 148px;
+  text-align: left;
+  position: absolute; 
+  top: 72px;
+  left: 315px;} 
+
+.content-alt { 
+  color: rgb(255,252,222); 
   width: 148px;
   text-align: left;
   position: absolute; 
@@ -94,7 +101,7 @@ font-size: 8px;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-size: 8px;} 
+  font-size: 12px;} 
 
 .cooktime { 
   position: absolute; 
