@@ -52,7 +52,7 @@ body {
 
 h2 { 
 position: relative; 
-top: -220px; 
+top: -217px; 
 right: -152px;
 font-size: 20px;} 
 
@@ -63,15 +63,24 @@ right: -61px;}
 
 
 .spicerack { 
-  width: 75px;
+  width: 60px;
   position: relative; 
-  top: -285px; }
+  top: -285px; 
+  right: -100px; }
 
 
 .description { 
 font-size: 9px; 
+}
 
-} 
+.content-default { 
+  width: 140px;
+  text-align: left;
+  position: absolute; 
+  top:}
+
+.trigger { 
+  width: 30px;}
 
 
 .ingredientslist {
@@ -98,9 +107,10 @@ font-size: 9px;
 
 .flip-card-trigger {
   position: absolute;
-  right: 20px;
-  bottom: 20px;
-  z-index: 1;
+  right: 15px;
+  bottom: 10px;
+  z-index: 1; 
+  width: 
 } 
 
 .flip-card-trigger:hover + .flip-card-inner {
