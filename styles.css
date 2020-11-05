@@ -52,14 +52,18 @@ body {
 
 h2 { 
 position: relative; 
-top: -1000px}
+top: -1475px; 
+right: -152px;
+font-size: 20px;} 
+
 
 .spicerack { 
   size: 1%;}
 
 
 .description { 
-font-size: 9px;   
+font-size: 9px; 
+
 } 
 
 
