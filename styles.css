@@ -70,7 +70,7 @@ right: -61px;}
 
 
 .description { 
-font-size: 9px; 
+font-size: 8px; 
 }
 
 .content-default { 
@@ -87,7 +87,8 @@ font-size: 9px;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;} 
+  overflow: hidden;
+  font-size: 8px;} 
 
 .cooktime { 
   position: absolute; 
@@ -122,10 +123,12 @@ font-size: 9px;
 
 .donuts { 
 text-align: left; 
-}
+font-size: 8px;}
 
 .glaze { 
-text-align: left;}
+text-align: left;
+font-size: 8px;}
+
 .flip-card {
   background-color: transparent;
   width: 480px;
@@ -183,4 +186,9 @@ text-align: left;}
 
 #description:target, #ingredients:target, #comments:target {
   display: block;
+} 
+
+.recipe {
+  width: 450px; 
+  position: center; 
 }
