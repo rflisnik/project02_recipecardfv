@@ -13,27 +13,15 @@
 .u-clearfix::after {
   clear: both;
 }
-
-/* Removes the default bullets and spacing from a list */
-.u-list-reset {
-  list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
 /* Displays list items as inline block  */
 .u-list-inline li {
   display: inline-block;
 }
 
-/* ==============
-   BASE STYLES
-   ============== */
-
 * {
   box-sizing: border-box;
-}
+} 
+
 
 body {
   background-color: #FCFCFC;
@@ -98,6 +86,7 @@ span {
 
 .menu { 
   list-style-type: none;
+  display: inline-block;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -185,12 +174,15 @@ font-size: 8px;}
   padding: 45px;
   background-color: rgb(140, 126, 109);
   color: rgb(29, 38, 98);
+  border-radius: 10px;
+  backface-visibility: hidden;
 }
 
 .flip-card-back {
   background-color: rgb(255, 252, 222);
   color: rgb(140, 126, 109);
   transform: rotateY(180deg);
+  border-radius: 10px;
 }
 
 .content-alt:target ~ #description, .content-alt {
