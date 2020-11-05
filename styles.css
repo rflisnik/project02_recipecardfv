@@ -46,7 +46,10 @@ body {
 
 /* ======================
    DEMO STYLES
-   ====================== */
+   ====================== */ 
+p { 
+font-size: 9px; 
+}
 
 .flip-card {
   background-color: transparent;
