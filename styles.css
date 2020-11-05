@@ -44,11 +44,15 @@ body {
   margin: 0;
 }
 
-/* ======================
-   DEMO STYLES
-   ====================== */ 
-p { 
+.donut-img {}
+
+.description { 
 font-size: 9px; 
+} 
+
+.ingredientslist {
+  
+font-size: 9px;
 }
 
 .flip-card {
@@ -86,6 +90,7 @@ font-size: 9px;
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  font-size: 9px;
 }
 
 .flip-card-front {
