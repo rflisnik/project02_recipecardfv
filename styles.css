@@ -50,13 +50,18 @@ body {
   left: -75px; 
 } 
 
+h2 { 
+position: relative; 
+top: -1000px}
+
+.spicerack { 
+  size: 1%;}
+
 
 .description { 
-font-size: 9px; 
-text-align: left; 
-
-  
+font-size: 9px;   
 } 
+
 
 .ingredientslist {
   
