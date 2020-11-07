@@ -189,7 +189,7 @@ font-size: 8px;}
   display: none;
 }
 
-#description:target, #ingredients:target, #comments:target {
+#description:target, #ingredientslist:target, #comments:target {
   display: block;
 } 
 
